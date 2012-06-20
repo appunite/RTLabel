@@ -20,6 +20,16 @@
 		F8BDA6AD12D554AE00B6CC65 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8BDA6AC12D554AE00B6CC65 /* CoreText.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		AEFEDC3C1591FE2600DDECF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEFEDC381591FE2500DDECF0 /* RTLabel.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AEFEDC281591FE2500DDECF0;
+			remoteInfo = RTLabel;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* RTLabelProjectAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTLabelProjectAppDelegate.h; sourceTree = "<group>"; };
@@ -31,6 +41,7 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* RTLabelProject_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTLabelProject_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* RTLabelProject-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "RTLabelProject-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		AEFEDC381591FE2500DDECF0 /* RTLabel.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RTLabel.xcodeproj; path = RTLabel/RTLabel.xcodeproj; sourceTree = "<group>"; };
 		F801A572136D868000BA1B35 /* DemoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoTableViewController.h; sourceTree = "<group>"; };
 		F801A573136D868000BA1B35 /* DemoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoTableViewController.m; sourceTree = "<group>"; };
 		F801A58C136D879B00BA1B35 /* DemoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoTableViewCell.h; sourceTree = "<group>"; };
@@ -82,6 +93,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				AEFEDC381591FE2500DDECF0 /* RTLabel.xcodeproj */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -121,6 +133,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		AEFEDC391591FE2500DDECF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEFEDC3D1591FE2600DDECF0 /* libRTLabel.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -158,12 +178,28 @@
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = AEFEDC391591FE2500DDECF0 /* Products */;
+					ProjectRef = AEFEDC381591FE2500DDECF0 /* RTLabel.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				1D6058900D05DD3D006BFB54 /* RTLabelProject */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		AEFEDC3D1591FE2600DDECF0 /* libRTLabel.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRTLabel.a;
+			remoteRef = AEFEDC3C1591FE2600DDECF0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		1D60588D0D05DD3D006BFB54 /* Resources */ = {
