@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'RTLabel' target in the 'RTLabel' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
