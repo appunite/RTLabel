@@ -8,16 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		AEFEDC2C1591FE2500DDECF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEFEDC2B1591FE2500DDECF0 /* Foundation.framework */; };
-		AEFEDC321591FE2500DDECF0 /* RTLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFEDC311591FE2500DDECF0 /* RTLabel.m */; };
-		AEFEDC49159201F200DDECF0 /* RTLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = AEFEDC301591FE2500DDECF0 /* RTLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEFEDC4B1592032900DDECF0 /* RTLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = AEFEDC4A1592032800DDECF0 /* RTLabel.h */; };
+		AEFEDC4D1592036D00DDECF0 /* RTLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFEDC4C1592036D00DDECF0 /* RTLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AEFEDC281591FE2500DDECF0 /* libRTLabel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRTLabel.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEFEDC2B1591FE2500DDECF0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AEFEDC2F1591FE2500DDECF0 /* RTLabel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RTLabel-Prefix.pch"; sourceTree = "<group>"; };
-		AEFEDC301591FE2500DDECF0 /* RTLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTLabel.h; sourceTree = "<group>"; };
-		AEFEDC311591FE2500DDECF0 /* RTLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTLabel.m; sourceTree = "<group>"; };
+		AEFEDC4A1592032800DDECF0 /* RTLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RTLabel.h; path = ../../Classes/RTLabel.h; sourceTree = "<group>"; };
+		AEFEDC4C1592036D00DDECF0 /* RTLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +60,8 @@
 		AEFEDC2D1591FE2500DDECF0 /* RTLabel */ = {
 			isa = PBXGroup;
 			children = (
-				AEFEDC301591FE2500DDECF0 /* RTLabel.h */,
-				AEFEDC311591FE2500DDECF0 /* RTLabel.m */,
+				AEFEDC4A1592032800DDECF0 /* RTLabel.h */,
+				AEFEDC4C1592036D00DDECF0 /* RTLabel.m */,
 				AEFEDC2E1591FE2500DDECF0 /* Supporting Files */,
 			);
 			path = RTLabel;
@@ -82,7 +82,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEFEDC49159201F200DDECF0 /* RTLabel.h in Headers */,
+				AEFEDC4B1592032900DDECF0 /* RTLabel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,7 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEFEDC321591FE2500DDECF0 /* RTLabel.m in Sources */,
+				AEFEDC4D1592036D00DDECF0 /* RTLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
